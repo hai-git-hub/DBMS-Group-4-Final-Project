@@ -1,0 +1,115 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #eee;
+  font-weight: bold;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th:first-child, td:first-child {
+  width: 20%;
+}
+
+th:nth-child(2), td:nth-child(2) {
+  width: 40%;
+}
+
+th:last-child, td:last-child {
+  width: 10%;
+}
+
+input[type="number"] {
+  width: 50px;
+  text-align: center;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+
+a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+a:hover {
+  background-color: #444;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Specific styles */
+.price, .subtotal, .tax, .total {
+  font-weight: bold;
+}
+
+.price:before, .subtotal:before, .tax:before, .total:before {
+  content: "$";
+}
+
+.total {
+  font-size: 1.2em;
+  color: #ff0000;
+}

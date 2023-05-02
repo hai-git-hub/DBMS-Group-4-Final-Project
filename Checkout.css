@@ -1,0 +1,93 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  header h1 {
+    font-size: 24px;
+  }
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  nav ul {
+    display: flex;
+  }
+  nav li {
+    margin-left: 20px;
+  }
+  nav a {
+    font-weight: bold;
+  }
+  main {
+    padding: 20px;
+  }
+  fieldset {
+    margin-bottom: 20px;
+    border: none;
+  }
+  legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  input[type="text"], input[type="email"], input[type="tel"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus {
+    border-color: #333;
+  }
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
+  footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>My Furniture Store - Cart</title>
+    <link rel="stylesheet" href="Cart.css">
+  </head>
+  <body>
+    <header>
+      <h1> My Furniture Store</h1>
+      <nav>
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="Product.html">Products</a></li>
+          <li><a href="Cart.html">Cart</a></li>
+          <li><a href="About.html">About Us & Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <h2>Your Cart</h2>
+      
+      <table>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="product1.jpg" alt="Product 1"></td>
+            <td>Product 1</td>
+            <td class="price">$999</td>
+            <td><input type="number" value="1" min="1"></td>
+            <td class="subtotal">$999</td>
+          </tr>
+          
+          <tr>
+            <td><img src="product2.jpg" alt="Product 2"></td>
+            <td>Product 2</td>
+            <td class="price">$599</td>
+            <td><input type="number" value="1" min="1"></td>
+            <td class="subtotal">$599</td>
+          </tr>
+          
+          <tr>
+            <td><img src="product3.jpg" alt="Product 3"></td>
+            <td>Product 3</td>
+            <td class="price">$799</td>
+            <td><input type="number" value="1" min="1"></td>
+            <td class="subtotal">$799</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4">Subtotal</td>
+            <td class="subtotal">$2397</td>
+          </tr>
+          <tr>
+            <td colspan="4">Tax</td>
+            <td class="tax">$143.82</td>
+          </tr>
+          <tr>
+            <td colspan="4">Total</td>
+            <td class="total">$2540.82</td>
+          </tr>
+        </tfoot>
+      </table>
+      
+      <a href="Product.html">Continue Shopping</a>
+      <a href="Checkout.html">Checkout</a>
+    </main>
+    
+    <footer>
+      <p>Copyright © 2023 My Furniture Store.
+        All rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #777;
+    text-align: center;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-title {
+    margin: 0;
+    font-size: 4em;
+    color: white;
+}
+.main-nav {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: lighter;
+}
+
+.main-header {
+    background-color: rgba(0,0,0,0.2);
+    background-image: url("Images/About-1.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-top: 0.5em;
+    padding-bottom: 190px;
+    text-align: center
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 1800px;
+    margin:1 auto;
+    padding: 0 1.5em;
+}
+
+.content-header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    padding-left: 1.75em;
+}
+
+.about-image {
+    padding-top: 1.5em;
+    max-width: 100%;
+}
+
+.content-text {
+    font-size: 1.9em;
+}
+
+.index-section {
+    margin: 1em;
+}
+
+.index-container {
+    max-width: 1800px;
+    margin:1 auto;
+    padding: 0 1.5em;
+}
+
+.button {
+    margin-left: 0.5em;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.3em 2em;
+    cursor: pointer
+}
+
+.button-primary {
+    max-width: 60%;
+    color: 777;
+    background-color: white;
+    border-radius: .3em;
+    font-weight: bold;
+    border-color: dimgray;
+}
+
+.button-primary:hover {
+    background-color:black;
+    color: white;
+}
+
+.shop-item {
+    margin: 15px;
+}
+
+.item-name {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: medium;
+    font-size: 1.4em;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.item-detail {
+    display: flex;
+    align-items: center;
+    padding: 1px;
+}
+
+.item-price {
+    flex-grow: 0.7;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #777;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 60%;
+}
+
+.cart-price {
+    width: 15%;
+    font-size: 1.2em;
+    color: #777;
+}
+
+.cart-quantity {
+    width: 20%;
+}
+
+.item-title {
+    color: #777;
+    margin-left: 2em;
+    font-size: 1.2em;
+}
+
+.button-remove {
+    color: 777;
+    background-color: white;
+    border-radius: .3em;
+    border: none;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+.button-remove:hover {
+    background-color:black;
+    color: white;
+}
+
+.quantity-input {
+    height: 45px;
+    width: 75px;
+    font-size: 1.2em;
+    color: #777;
+    text-align: center;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-right: 70px;
+    margin-top: 25px;
+}
+
+.total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #777;
+    margin-right: 15px;
+}
+
+.total-price {
+    color: #777;
+    font-size: 1.5em;
+}
+
+.button-checkout {
+    float: right;
+    margin-right: 55px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    font-size: 1.4em;
+}
+
+.checkout-button {
+        float: right;
+        margin-right: 55px;
+        margin-top: 10px;
+        margin-bottom: 80px;
+        font-size: 1.4em;
+}
+
+.contact {
+    font-size: 1.5em;
+}
+
+.hidden-container {
+    padding-top: 500px;
+}
+
+
+
+
+
